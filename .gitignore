@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+# local assistant configuration
+.claude/
+
 # Expo
 .expo/
 dist/
