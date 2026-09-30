@@ -6,6 +6,18 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita que o app acesse suas fotos para usar imagens de perfil.",
+          "cameraPermission": "Permita que o app use sua camera para tirar fotos de perfil.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-secure-store",
+      "expo-router"
+    ],
     "ios": {
       "supportsTablet": true
     },
